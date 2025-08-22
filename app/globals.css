@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1430px;
+
+  /* Colors */
+  --color-primary: #100e0e;
+  --color-secondary: #787f8a;
+  --color-accent: #c7a17a;
+  --color-accent-hover: #a08161;
+
+  /* Background images */
+  --background-image-overlay: url("/assets/hero/hero-overlay.png");
+  --background-image-opening_hours: url("/assets/opening-hours/bg.jpg");
+  --background-image-footer: url("/assets/footer/bg.jpg");
+
+  /* Fonts */
+  --font-primary: "Cormorant Upright", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
+
+  /* Container */
+  --container-padding: 15px;
+}
+
+/* === Global Styles === */
+body {
+  @apply font-secondary text-secondary leading-relaxed;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary text-primary;
+  }
+}
+
+.container {
+  @apply px-[15px] mx-auto max-w-357.5 h-full;
+}
+
+.h1 {
+  @apply text-3xl xl:text-6xl leading-[1.1] font-semibold;
+}
+
+.h2 {
+  @apply text-2xl xl:text-4xl leading-[1.2] font-bold;
+}
+
+.lead {
+  @apply text-lg;
+}
+
+.btn {
+  @apply min-w-[156px] h-[54px] px-6 bg-accent hover:bg-accent-hover text-primary text-[13px] uppercase font-semibold tracking-[.15em] transition-all;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  @apply text-primary !text-[2rem];
+}
