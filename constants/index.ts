@@ -1,9 +1,39 @@
+import {
+  RiYoutubeLine,
+  RiTwitterXLine,
+  RiFacebookLine,
+  RiInstagramLine,
+} from "react-icons/ri";
+
 export const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/", label: "Explore" },
   { href: "/", label: "About" },
   { href: "/", label: "Menu" },
   { href: "/", label: "Contact" },
+];
+
+export const SOCIAL_LINKS = [
+  {
+    href: "https://www.youtube.com",
+    label: "YouTube",
+    icon: RiYoutubeLine,
+  },
+  {
+    href: "https://x.com",
+    label: "TwitterX",
+    icon: RiTwitterXLine,
+  },
+  {
+    href: "https://www.facebook.com",
+    label: "Facebook",
+    icon: RiFacebookLine,
+  },
+  {
+    href: "https://www.instagram.com",
+    label: "Instagram",
+    icon: RiInstagramLine,
+  },
 ];
 
 export const EXPLORE_DATA = [
