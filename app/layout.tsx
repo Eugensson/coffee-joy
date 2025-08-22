@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Cormorant_Upright, Open_Sans } from "next/font/google";
 
 import "./globals.css";
@@ -6,13 +7,13 @@ import "./globals.css";
 const cormorantUpright = Cormorant_Upright({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-cormorant_upright",
+  variable: "--font-cormorant-upright",
 });
 
 const openSans = Open_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
-  variable: "--font-open_sans",
+  variable: "--font-open-sans",
 });
 
 export const metadata: Metadata = {
@@ -32,9 +33,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cormorantUpright.variable} ${openSans.variable} antialiased`}
+        className={`${cormorantUpright.variable} ${openSans.variable} antialiased overflow-x-hidden`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
