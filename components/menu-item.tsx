@@ -17,7 +17,6 @@ export const MenuItem = ({ item }: MenuItemProps) => {
           alt={name}
           fill
           className="object-cover"
-          quality={100}
           priority
         />
       </div>

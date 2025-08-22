@@ -13,7 +13,6 @@ export const OpeningHours = () => {
           alt="Opening hours"
           fill
           className="object-cover"
-          quality={100}
           priority
         />
         <Badge containerStyles="size-80 absolute z-40" />
@@ -29,7 +28,6 @@ export const OpeningHours = () => {
               alt="Opening hours"
               fill
               className="object-contain"
-              quality={100}
               priority
             />
           </div>

@@ -26,7 +26,6 @@ export const Explore = () => {
                 alt="Cup of coffee"
                 fill
                 className="object-cover"
-                quality={100}
                 priority
                 data-scroll
                 data-scroll-speed="0.1"

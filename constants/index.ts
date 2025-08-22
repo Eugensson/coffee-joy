@@ -124,3 +124,42 @@ export const MENU_DATA = [
     price: 6.5,
   },
 ];
+
+export const TESTIMONIAL_DATA = [
+  {
+    message:
+      "The coffee at Coffee Joy is absolutely amazing! The baristas craft every cup with care, and the cozy atmosphere makes it perfect for both work and relaxation.",
+    name: "Alice Johnson",
+    profession: "Graphic Designer",
+  },
+  {
+    message:
+      "I love coming to Coffee Joy. The pastries are always fresh, the specialty drinks are top-notch, and the friendly staff makes it my favorite spot for casual meetings.",
+    name: "Michael Lee",
+    profession: "Freelance Writer",
+  },
+  {
+    message:
+      "Coffee Joy is a hidden gem! The warm ambiance and diverse menu are delightful. The chai latte is a must-try, and the desserts pair perfectly with the coffee.",
+    name: "Samantha Green",
+    profession: "Marketing Specialist",
+  },
+  {
+    message:
+      "Their breakfast options are fantastic! From fresh croissants to healthy bowls, Coffee Joy makes mornings brighter with great food and coffee.",
+    name: "Daniel Carter",
+    profession: "Software Engineer",
+  },
+  {
+    message:
+      "I often grab a latte to-go on my way to work. The service is quick, the quality never disappoints, and it’s the best coffee in the area.",
+    name: "Laura Martinez",
+    profession: "Architect",
+  },
+  {
+    message:
+      "As someone who appreciates plant-based choices, I’m impressed with the vegan-friendly menu. Coffee Joy proves you can enjoy great coffee and delicious options guilt-free.",
+    name: "James Wilson",
+    profession: "Nutrition Coach",
+  },
+];

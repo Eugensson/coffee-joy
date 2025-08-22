@@ -77,7 +77,6 @@ export const About = () => {
                       alt="Coffee maker process"
                       fill
                       className="object-cover"
-                      quality={100}
                       priority
                     />
                   </div>
