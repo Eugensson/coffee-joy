@@ -16,10 +16,10 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <>
       <Hero />
       <div className="h-1000" />
-    </div>
+    </>
   );
 };
 

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { Cormorant_Upright, Open_Sans } from "next/font/google";
 
+import { Header } from "@/components/header";
+
 import "./globals.css";
 
 const cormorantUpright = Cormorant_Upright({
@@ -35,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${cormorantUpright.variable} ${openSans.variable} antialiased overflow-x-hidden`}
       >
+        <Header />
         {children}
         <Analytics />
       </body>
