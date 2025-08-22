@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 
 import { Hero } from "@/components/hero";
+import { Menu } from "@/components/menu";
 import { About } from "@/components/about";
 import { Explore } from "@/components/explore";
 
@@ -22,6 +23,7 @@ const Home = () => {
       <Hero />
       <Explore />
       <About />
+      <Menu />
       <div className="h-1000" />
     </>
   );

@@ -5,3 +5,10 @@ export type ExploreItemType = {
   description: string;
   align?: "left" | "right";
 };
+
+export type MenuItemType = {
+  imageSrc: string;
+  name: string;
+  description: string;
+  price: number;
+};
